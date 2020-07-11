@@ -5,4 +5,4 @@ const getNumber = (arr, k) => {
   return arr[k-1]
 }
 
-console.log(getNumber(arr1, 1))
+module.exports = getNumber

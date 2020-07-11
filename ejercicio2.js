@@ -1,4 +1,4 @@
-const summ = (n, m) => {
+const sum = (n, m) => {
     let result = 0
   for(let i = n; i <= m; i++){
     result += i
@@ -6,4 +6,4 @@ const summ = (n, m) => {
   return result
 }
 
-module.exports = summ
+module.exports = sum

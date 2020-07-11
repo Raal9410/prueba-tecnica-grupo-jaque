@@ -1,10 +1,8 @@
-const arr1 = [3, 2, 5, 9, 1, 3]
-
+const array = require('./tests/testArray')
 const getUnique = (arr) => {
   const newArr = arr.filter((e, i, self) => {
     return i === self.indexOf(e)
 })
 return newArr
 }
-
-console.log(getUnique(arr1))
+module.exports = getUnique

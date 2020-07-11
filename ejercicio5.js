@@ -26,11 +26,4 @@ const isBalanced = (str) => {
     return stack.length === 0
   }
 
-  console.log(isBalanced('([])'))
-
-  console.log(isBalanced('[()[]]'))
-
-  console.log(isBalanced('([)}'))
-  console.log(isBalanced('([)}'))
-  console.log(isBalanced('([)}'))
-  console.log(isBalanced('()(([)}'))
+module.exports = isBalanced
